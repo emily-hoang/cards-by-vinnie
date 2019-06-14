@@ -43,13 +43,17 @@
     padding-top: 0;
     padding-bottom: 0;
     border-bottom: none;
-    background-color: #e87ac17d;
+    background-color: #ffffff7d;
     -webkit-transition: background-color 0.3s ease-in-out;
     transition: background-color 0.3s ease-in-out;
   }
   #mainNav .navbar-brand {
     padding: .5rem 0;
     color: rgb(0, 0, 0);
+  }
+  #mainNav .navbar-brand img {
+    width: 200px;
+    transition: width 1s;
   }
   #mainNav .nav-link {
     -webkit-transition: none;
@@ -68,6 +72,10 @@
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
+  }
+  #mainNav.navbar-shrink .navbar-brand img {
+    width: 120px;
+    transition: width 1s;
   }
   #mainNav.navbar-shrink .nav-link {
     color: #161616;
