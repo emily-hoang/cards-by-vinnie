@@ -130,6 +130,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .masthead h1 {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
+}
+
 @media (min-width: 992px) {
   .masthead {
     height: 100vh;
@@ -175,7 +182,7 @@
 }
 
 .about-section {
-  padding: 10rem;
+  padding: 10rem 5rem;
   background: white;
 }
 
@@ -191,13 +198,6 @@
   padding: 3rem;
 }
 
-@media (min-width: 992px) {
-  .projects-section .featured-text {
-    padding: 0 0 0 3rem;
-    border-left: 0.5rem solid #a0266d;
-  }
-}
-
 .projects-section .project-text {
   padding: 3rem;
   font-size: 90%;
@@ -211,6 +211,11 @@
     border-color: #a0266d;
     border-width: .25rem;
     width: 30%;
+  }
+
+  .projects-section .featured-text {
+    padding: 0 0 0 3rem;
+    border-left: 0.5rem solid #a0266d;
   }
 }
 
